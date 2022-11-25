@@ -1,0 +1,3 @@
+/home/jeonsion/Desktop/opensw2022/library_test/CMakeFiles/libtest.dir
+/home/jeonsion/Desktop/opensw2022/library_test/CMakeFiles/edit_cache.dir
+/home/jeonsion/Desktop/opensw2022/library_test/CMakeFiles/rebuild_cache.dir

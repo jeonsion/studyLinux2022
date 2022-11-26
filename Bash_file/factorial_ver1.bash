@@ -1,5 +1,5 @@
 #! /bin/bash
-# 사용법 :./factorial.bash
+# 사용법 :./factorial.bash 계산할 수 반복 수 결과 값
 # 매개변수를 입력받아 해당 값의 팩토리얼 연산을 수행하여 결과를 출력한다.
 # 스크립트 자체를 재귀호출에서 사용하므로 결과값과 연산횟수를 인수로 넘겨주기
 
@@ -18,6 +18,6 @@ then
 else
     result=`expr $result \* $try`   
     try=`expr $try + 1`
-    echo $num $try $result
+    #echo $num $try $result  
     /home/jeonsion/Desktop/opensw2022/Bash_file/factorial.bash $num $try $result
 fi

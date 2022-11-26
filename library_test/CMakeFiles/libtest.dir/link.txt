@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/libtest.dir/test.cpp.o -o libtest   -L/home/jeonsion/Desktop/opensw2022/library_test/lib_build 
+/usr/bin/c++ -rdynamic CMakeFiles/libtest.dir/test.cpp.o -o libtest   -L/home/jeonsion/Desktop/opensw2022/library_test/bli_build  -Wl,-rpath,/home/jeonsion/Desktop/opensw2022/library_test/bli_build -lLinuxProg 

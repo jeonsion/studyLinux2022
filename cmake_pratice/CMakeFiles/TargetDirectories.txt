@@ -1,0 +1,3 @@
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/CMakeFiles/main_for_a.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/CMakeFiles/edit_cache.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/CMakeFiles/rebuild_cache.dir

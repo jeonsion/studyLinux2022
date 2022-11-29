@@ -1,0 +1,7 @@
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/ReverseCopy.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/edit_cache.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/rebuild_cache.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/list_install_components.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/install.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/install/local.dir
+/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build/CMakeFiles/install/strip.dir

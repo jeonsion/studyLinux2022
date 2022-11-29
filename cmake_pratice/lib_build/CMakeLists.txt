@@ -1,18 +1,13 @@
-#하위폴더 안에 있음
-
 cmake_minimum_required(VERSION 3.0.2)
-project(reverse)
-find_package(Threads)
-set(CMAKE_BUILD_TYPE Release)
-include_directories(bus display)
-file(GLOB_RECURSE SOURCES "./*c")
+project(reverse)    #프로젝트 이름 임의로 선언
+find_package(Threads)   #pthread 지원을 추가
+set(CMAKE_BUILD_TYPE Release)   #빌드유형 지정. Debug도 가능
+include_directories(bus display gpio etc)   #헤더파일을 찾을 디렉터리 추가
+file(GLOB_RECURSE SOURCES "./*.c")  #SOURCES S붙타 확인하기!!
 
-#여기서부터 진짜
-add_library(ReverseCopy SHARED ${SOURCES})
-#add_library(ReverseCopy STATIC ${SOURCES})
-
+#SHARED는 공유라이브러리*.so STATIC는 정적라이브러리 *.a생성
+#생성파일 이름 기반은 ReverseCopy
+add_library(ReverseCopy STATIC ${SOURCES})  
 target_link_libraries(ReverseCopy ${CMAKE_THREAD_LIBS_INIT})
-#여기까지만 해줘도 됨 
-#근데 install 해보자
 install (TARGETS ReverseCopy DESTINATION /usr/lib)
 

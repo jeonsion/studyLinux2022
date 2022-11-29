@@ -1,1 +1,1 @@
-/usr/bin/cc -rdynamic CMakeFiles/main_for_a.dir/main.c.o -o main_for_a   -L/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build  -Wl,-rpath,/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build -lReverseCopy 
+/usr/bin/cc -rdynamic CMakeFiles/main_for_a.dir/main.c.o -o main_for_a   -L/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build  -Wl,-rpath,/home/jeonsion/Desktop/opensw2022/cmake_pratice/lib_build -Wl,-Bstatic -lReverseCopy -Wl,-Bdynamic 
